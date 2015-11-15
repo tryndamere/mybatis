@@ -15,6 +15,10 @@
  */
 package org.apache.ibatis.session.defaults;
 
+import com.fc.platform.commons.page.Page;
+import com.fc.platform.commons.page.PageImpl;
+import com.fc.platform.commons.page.PageRequest;
+import com.fc.platform.commons.page.Pageable;
 import org.apache.ibatis.binding.BindingException;
 import org.apache.ibatis.binding.MapperMethod;
 import org.apache.ibatis.exceptions.ExceptionFactory;
@@ -25,10 +29,6 @@ import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.executor.result.DefaultMapResultHandler;
 import org.apache.ibatis.executor.result.DefaultResultContext;
 import org.apache.ibatis.mapping.MappedStatement;
-import org.apache.ibatis.page.Page;
-import org.apache.ibatis.page.PageImpl;
-import org.apache.ibatis.page.PageRequest;
-import org.apache.ibatis.page.Pageable;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.ResultHandler;
 import org.apache.ibatis.session.RowBounds;
