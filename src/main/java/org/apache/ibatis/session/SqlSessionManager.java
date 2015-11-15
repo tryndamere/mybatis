@@ -15,8 +15,8 @@
  */
 package org.apache.ibatis.session;
 
-import com.hyxt.platform.commons.page.Page;
 import org.apache.ibatis.executor.BatchResult;
+import org.apache.ibatis.page.Page;
 import org.apache.ibatis.reflection.ExceptionUtil;
 
 import java.io.InputStream;

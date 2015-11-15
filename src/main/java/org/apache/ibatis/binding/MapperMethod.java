@@ -15,12 +15,12 @@
  */
 package org.apache.ibatis.binding;
 
-import com.hyxt.platform.commons.page.Page;
 import org.apache.ibatis.annotations.Flush;
 import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.SqlCommandType;
+import org.apache.ibatis.page.Page;
 import org.apache.ibatis.reflection.MetaObject;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.ResultHandler;
