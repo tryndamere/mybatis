@@ -24,7 +24,7 @@
   </parent>
 
   <artifactId>mybatis</artifactId>
-  <version>3.4.2-hyxt-RELEASE</version>
+  <version>3.4.2-fc-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>mybatis</name>
